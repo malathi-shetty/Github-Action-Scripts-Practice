@@ -1,4 +1,4 @@
-package src;
+package com.example;
 
 public class Main {
 class Test {
@@ -7,7 +7,7 @@ class Test {
     public static void main(String[] args) {
         System.out.println("Value of a is: " + a);
 
-       System.out.println("Hello!");
+       System.out.println("Hello from GitHub Actions!");
     }
 }
 }
