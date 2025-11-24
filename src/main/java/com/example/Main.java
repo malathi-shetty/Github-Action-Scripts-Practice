@@ -1,7 +1,7 @@
 package com.example;
 
 public class Main {
-class Test {
+
     static int a = 90;
 
     public static void main(String[] args) {
@@ -9,5 +9,4 @@ class Test {
 
        System.out.println("Hello from GitHub Actions!");
     }
-}
 }
