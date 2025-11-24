@@ -1,0 +1,22 @@
+name: File operations in github
+
+on: push
+
+jobs:
+    files:
+        runs-on: ubuntu-latest
+        steps:
+            - name: create one file
+              run: echo "KK DEVOPS 123456" > devops.txt
+
+            - name: display the content of a file
+              run: cat devops.txt
+            
+            - name: display the date
+              run: date
+
+            - name: display files and directories
+              run: ls -lrth
+
+            - name: display the present location
+              run: pwd
