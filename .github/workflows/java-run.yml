@@ -21,4 +21,4 @@ jobs:
         run: javac src/Main.java
 
       - name: Run Java Program
-        run: java src.Main
+        run: java -cp src Main
