@@ -1,6 +1,7 @@
-name: File Operations Demo
+name: File Operations 1 Demo
 
-on: push
+on:
+  push:
 
 jobs:
   files:
