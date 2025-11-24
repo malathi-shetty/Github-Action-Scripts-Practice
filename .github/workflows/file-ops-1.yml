@@ -1,7 +1,7 @@
 name: File operations 1 in github
 
 on:
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
   files:
@@ -21,3 +21,4 @@ jobs:
 
       - name: Display the present location
         run: pwd
+
