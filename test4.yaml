@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: create one file
-              run: echo "KK DEVOPS 123456" > devops.txt
+              run: echo "KK DEVOPS 1234567" > devops.txt
 
             - name: display the content of a file
               run: cat devops4.txt
