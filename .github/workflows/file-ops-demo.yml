@@ -1,4 +1,4 @@
-name: File Operations 1 Demo
+name: File Operations Demo
 
 on:
   push
@@ -44,3 +44,4 @@ jobs:
           name: example-file
 
           path: demo_folder/example.txt
+
