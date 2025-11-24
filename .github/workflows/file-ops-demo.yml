@@ -1,0 +1,45 @@
+name: File Operations 1 Demo
+
+on:
+  push:
+
+jobs:
+  files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Create a file
+        run: echo "Learning GitHub Actions!" > example.txt
+
+      - name: Append text to file
+        run: echo "More content..." >> example.txt
+
+      - name: Read file content
+        run: cat example.txt
+
+      - name: Show current date
+        run: date
+
+      - name: List all files
+        run: ls -al
+
+      - name: Print current directory
+        run: pwd
+
+      - name: Create a directory
+        run: mkdir demo_folder
+
+      - name: Move file to directory
+        run: mv example.txt demo_folder/
+
+      - name: List directory content
+        run: ls -R
+
+      - name: Upload file as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: example-file
+          path: demo_folder/example.txt
