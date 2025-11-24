@@ -1,3 +1,6 @@
+package src;
+
+public class Main {
 class Test {
     static int a = 90;
 
@@ -6,4 +9,5 @@ class Test {
 
        System.out.println("Hello!");
     }
+}
 }
